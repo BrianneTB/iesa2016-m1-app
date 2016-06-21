@@ -13,9 +13,4 @@ class Book {
     var author = ""
     var description = ""
     
-    func getTitle () -> String {
-        return self.title
-    }
-    func setTitle (String
-    
 }
