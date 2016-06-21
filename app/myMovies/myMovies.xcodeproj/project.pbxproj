@@ -15,6 +15,8 @@
 		1CF5AAED1D194BA70070E287 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1CF5AAEB1D194BA70070E287 /* LaunchScreen.storyboard */; };
 		1CF5AAF81D194BA70070E287 /* myMoviesTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1CF5AAF71D194BA70070E287 /* myMoviesTests.swift */; };
 		1CF5AB031D194BA70070E287 /* myMoviesUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1CF5AB021D194BA70070E287 /* myMoviesUITests.swift */; };
+		1CF5AB111D196B9C0070E287 /* Book.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1CF5AB101D196B9C0070E287 /* Book.swift */; };
+		1CF5AB131D196D920070E287 /* BookStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1CF5AB121D196D920070E287 /* BookStore.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +51,8 @@
 		1CF5AAFE1D194BA70070E287 /* myMoviesUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = myMoviesUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		1CF5AB021D194BA70070E287 /* myMoviesUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = myMoviesUITests.swift; sourceTree = "<group>"; };
 		1CF5AB041D194BA70070E287 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1CF5AB101D196B9C0070E287 /* Book.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Book.swift; path = myMovies/Book.swift; sourceTree = "<group>"; };
+		1CF5AB121D196D920070E287 /* BookStore.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = BookStore.swift; path = myMovies/BookStore.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -79,6 +83,8 @@
 		1CF5AAD41D194BA70070E287 = {
 			isa = PBXGroup;
 			children = (
+				1CF5AB101D196B9C0070E287 /* Book.swift */,
+				1CF5AB121D196D920070E287 /* BookStore.swift */,
 				1CF5AADF1D194BA70070E287 /* myMovies */,
 				1CF5AAF61D194BA70070E287 /* myMoviesTests */,
 				1CF5AB011D194BA70070E287 /* myMoviesUITests */,
@@ -259,8 +265,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1CF5AB111D196B9C0070E287 /* Book.swift in Sources */,
 				1CF5AAE51D194BA70070E287 /* DetailViewController.swift in Sources */,
 				1CF5AAE31D194BA70070E287 /* MasterViewController.swift in Sources */,
+				1CF5AB131D196D920070E287 /* BookStore.swift in Sources */,
 				1CF5AAE11D194BA70070E287 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -401,6 +409,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = "Brand Assets";
 				INFOPLIST_FILE = myMovies/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = book.bree.myMovies;
@@ -412,6 +421,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = "Brand Assets";
 				INFOPLIST_FILE = myMovies/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = book.bree.myMovies;
